@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Widgets/AppBarWidget.dart';
 import 'package:flutter_application_1/Widgets/CategoriesWidget.dart';
+import 'package:flutter_application_1/Widgets/PopularItemsWidget.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -90,6 +91,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
+          PopularItemsWidget(),
         ],
       ),
     );
