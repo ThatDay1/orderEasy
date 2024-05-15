@@ -6,15 +6,14 @@ class PopularItemsWidget extends StatelessWidget {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Padding(
-        padding: EdgeInsets.symmetric(
+        padding: const EdgeInsets.symmetric(
           vertical: 15,
           horizontal: 5,
         ),
         child: Row(
           children: [
-            //for (int i = 0; i < 10; i++)
             Padding(
-              padding: EdgeInsets.symmetric(
+              padding: const EdgeInsets.symmetric(
                 horizontal: 7,
               ),
               child: Container(
@@ -28,11 +27,11 @@ class PopularItemsWidget extends StatelessWidget {
                         color: Colors.grey.withOpacity(0.5),
                         spreadRadius: 3,
                         blurRadius: 10,
-                        offset: Offset(0, 3),
+                        offset: const Offset(0, 3),
                       ),
                     ]),
                 child: Padding(
-                  padding: EdgeInsets.symmetric(
+                  padding: const EdgeInsets.symmetric(
                     horizontal: 10,
                   ),
                   child: Column(
@@ -45,31 +44,30 @@ class PopularItemsWidget extends StatelessWidget {
                           height: 130,
                         ),
                       ),
-                      Text(
+                      const Text(
                         "Hot Burger",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 4,
                       ),
-                      Text(
+                      const Text(
                         "Taste Our Hot Burger",
                         style: TextStyle(
                           fontSize: 15,
-                          fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 12,
                       ),
-                      Row(
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\$10",
+                            "\₺10",
                             style: TextStyle(
                               fontSize: 17,
                               color: Colors.red,
@@ -89,7 +87,7 @@ class PopularItemsWidget extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(
+              padding: const EdgeInsets.symmetric(
                 horizontal: 7,
               ),
               child: Container(
@@ -103,11 +101,11 @@ class PopularItemsWidget extends StatelessWidget {
                         color: Colors.grey.withOpacity(0.5),
                         spreadRadius: 3,
                         blurRadius: 10,
-                        offset: Offset(0, 3),
+                        offset: const Offset(0, 3),
                       ),
                     ]),
                 child: Padding(
-                  padding: EdgeInsets.symmetric(
+                  padding: const EdgeInsets.symmetric(
                     horizontal: 10,
                   ),
                   child: Column(
@@ -120,27 +118,26 @@ class PopularItemsWidget extends StatelessWidget {
                           height: 130,
                         ),
                       ),
-                      Text(
+                      const Text(
                         "Chicken Salan",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 4,
                       ),
-                      Text(
+                      const Text(
                         "Taste Chicken Salan",
                         style: TextStyle(
                           fontSize: 15,
-                          fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 12,
                       ),
-                      Row(
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
@@ -164,7 +161,7 @@ class PopularItemsWidget extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(
+              padding: const EdgeInsets.symmetric(
                 horizontal: 7,
               ),
               child: Container(
@@ -178,11 +175,11 @@ class PopularItemsWidget extends StatelessWidget {
                         color: Colors.grey.withOpacity(0.5),
                         spreadRadius: 3,
                         blurRadius: 10,
-                        offset: Offset(0, 3),
+                        offset: const Offset(0, 3),
                       ),
                     ]),
                 child: Padding(
-                  padding: EdgeInsets.symmetric(
+                  padding: const EdgeInsets.symmetric(
                     horizontal: 10,
                   ),
                   child: Column(
@@ -190,33 +187,32 @@ class PopularItemsWidget extends StatelessWidget {
                     children: [
                       Container(
                         alignment: Alignment.center,
-                        padding: EdgeInsets.all(5),
+                        padding: const EdgeInsets.all(5),
                         child: Image.asset(
                           "images/drink.png",
                           height: 120,
                         ),
                       ),
-                      Text(
+                      const Text(
                         "Cold Drink",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 4,
                       ),
-                      Text(
+                      const Text(
                         "Taste Cold Drink",
                         style: TextStyle(
                           fontSize: 15,
-                          fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 12,
                       ),
-                      Row(
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
@@ -240,7 +236,7 @@ class PopularItemsWidget extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(
+              padding: const EdgeInsets.symmetric(
                 horizontal: 7,
               ),
               child: Container(
@@ -254,11 +250,11 @@ class PopularItemsWidget extends StatelessWidget {
                         color: Colors.grey.withOpacity(0.5),
                         spreadRadius: 3,
                         blurRadius: 10,
-                        offset: Offset(0, 3),
+                        offset: const Offset(0, 3),
                       ),
                     ]),
                 child: Padding(
-                  padding: EdgeInsets.symmetric(
+                  padding: const EdgeInsets.symmetric(
                     horizontal: 10,
                   ),
                   child: Column(
@@ -271,27 +267,26 @@ class PopularItemsWidget extends StatelessWidget {
                           height: 130,
                         ),
                       ),
-                      Text(
+                      const Text(
                         "Hot Pizza",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 4,
                       ),
-                      Text(
+                      const Text(
                         "Taste Our Hot Pizza",
                         style: TextStyle(
                           fontSize: 15,
-                          fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 12,
                       ),
-                      Row(
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
@@ -315,7 +310,7 @@ class PopularItemsWidget extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(
+              padding: const EdgeInsets.symmetric(
                 horizontal: 7,
               ),
               child: Container(
@@ -329,11 +324,11 @@ class PopularItemsWidget extends StatelessWidget {
                         color: Colors.grey.withOpacity(0.5),
                         spreadRadius: 3,
                         blurRadius: 10,
-                        offset: Offset(0, 3),
+                        offset: const Offset(0, 3),
                       ),
                     ]),
                 child: Padding(
-                  padding: EdgeInsets.symmetric(
+                  padding: const EdgeInsets.symmetric(
                     horizontal: 10,
                   ),
                   child: Column(
@@ -346,27 +341,26 @@ class PopularItemsWidget extends StatelessWidget {
                           height: 130,
                         ),
                       ),
-                      Text(
+                      const Text(
                         "Chicken Biryani",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 4,
                       ),
-                      Text(
+                      const Text(
                         "Taste Chicken Biryani",
                         style: TextStyle(
                           fontSize: 15,
-                          fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 12,
                       ),
-                      Row(
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(

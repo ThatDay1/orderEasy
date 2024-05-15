@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: "easyOrder",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: Color(0xfff5f5f3),
+        scaffoldBackgroundColor: const Color(0xfff5f5f3),
       ),
       routes: {
         "/": (context) => HomePage(),

@@ -5,14 +5,14 @@ class NewestItemsWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Padding(
-        padding: EdgeInsets.symmetric(
+        padding: const EdgeInsets.symmetric(
           vertical: 10,
           horizontal: 10,
         ),
         child: Column(
           children: [
             Padding(
-              padding: EdgeInsets.symmetric(
+              padding: const EdgeInsets.symmetric(
                 vertical: 10,
               ),
               child: Container(
@@ -25,7 +25,7 @@ class NewestItemsWidget extends StatelessWidget {
                     BoxShadow(
                         color: Colors.grey.withOpacity(0.5),
                         spreadRadius: 10,
-                        offset: Offset(0, 3))
+                        offset: const Offset(0, 3))
                   ],
                 ),
                 child: Row(
@@ -43,7 +43,7 @@ class NewestItemsWidget extends StatelessWidget {
                     ),
                     Container(
                       width: 190,
-                      child: Column(
+                      child: const Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
