@@ -67,7 +67,7 @@ class PopularItemsWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\₺10",
+                            "₺10",
                             style: TextStyle(
                               fontSize: 17,
                               color: Colors.red,
@@ -141,7 +141,7 @@ class PopularItemsWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\$10",
+                            "₺10",
                             style: TextStyle(
                               fontSize: 17,
                               color: Colors.red,
@@ -216,7 +216,7 @@ class PopularItemsWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\$10",
+                            "₺10",
                             style: TextStyle(
                               fontSize: 17,
                               color: Colors.red,
@@ -290,7 +290,7 @@ class PopularItemsWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\$10",
+                            "₺10",
                             style: TextStyle(
                               fontSize: 17,
                               color: Colors.red,
@@ -364,7 +364,7 @@ class PopularItemsWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\$10",
+                            "₺10",
                             style: TextStyle(
                               fontSize: 17,
                               color: Colors.red,
