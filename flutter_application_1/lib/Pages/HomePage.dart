@@ -124,12 +124,12 @@ class HomePage extends StatelessWidget {
           onPressed: () {
             Navigator.pushNamed(context, "cartPage");
           },
-          child: Icon(
+          backgroundColor: Colors.white,
+          child: const Icon(
             CupertinoIcons.cart,
             size: 28,
             color: Colors.red,
           ),
-          backgroundColor: Colors.white,
         ),
       ),
     );

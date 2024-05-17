@@ -10,14 +10,14 @@ class ItemPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: EdgeInsets.only(
+        padding: const EdgeInsets.only(
           top: 5,
         ),
         child: ListView(
           children: [
             AppBarWidget(),
             Padding(
-              padding: EdgeInsets.all(16),
+              padding: const EdgeInsets.all(16),
               child: Image.asset(
                 "images/pizza.png",
                 height: 300,
@@ -37,7 +37,7 @@ class ItemPage extends StatelessWidget {
                   child: Column(
                     children: [
                       Padding(
-                        padding: EdgeInsets.only(
+                        padding: const EdgeInsets.only(
                           top: 60,
                           bottom: 10,
                         ),
@@ -59,7 +59,7 @@ class ItemPage extends StatelessWidget {
                               ),
                               onRatingUpdate: (index) {},
                             ),
-                            Text(
+                            const Text(
                               "₺10",
                               style: TextStyle(
                                 fontSize: 22,
@@ -70,55 +70,56 @@ class ItemPage extends StatelessWidget {
                         ),
                       ),
                       Padding(
-                        padding: EdgeInsets.only(
+                        padding: const EdgeInsets.only(
                           top: 10,
                           bottom: 20,
                         ),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text(
+                            const Text(
                               "Hot Pizza",
                               style: TextStyle(
                                 fontSize: 28,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                          ],
-                        ),
-                      ),
-                      Container(
-                        width: 90,
-                        padding: EdgeInsets.all(5),
-                        decoration: BoxDecoration(
-                          color: Colors.red,
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Icon(
-                              CupertinoIcons.minus,
-                              color: Colors.white,
-                              size: 20,
-                            ),
-                            Text(
-                              "1",
-                              style: TextStyle(
-                                fontSize: 16,
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
+                            Container(
+                              width: 90,
+                              padding: const EdgeInsets.all(5),
+                              decoration: BoxDecoration(
+                                color: Colors.red,
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              child: const Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Icon(
+                                    CupertinoIcons.minus,
+                                    color: Colors.white,
+                                    size: 20,
+                                  ),
+                                  Text(
+                                    "1",
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Icon(
+                                    CupertinoIcons.plus,
+                                    color: Colors.white,
+                                    size: 20,
+                                  ),
+                                ],
                               ),
                             ),
-                            Icon(
-                              CupertinoIcons.plus,
-                              color: Colors.white,
-                              size: 20,
-                            ),
                           ],
                         ),
                       ),
-                      Padding(
+                      const Padding(
                         padding: EdgeInsets.symmetric(
                           vertical: 10,
                         ),
@@ -130,11 +131,12 @@ class ItemPage extends StatelessWidget {
                           textAlign: TextAlign.justify,
                         ),
                       ),
-                      Padding(
+                      const Padding(
                         padding: EdgeInsets.symmetric(
                           vertical: 15,
                         ),
                         child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
                               "Delivery Time:",
@@ -160,6 +162,7 @@ class ItemPage extends StatelessWidget {
                                   "30 Minutes",
                                   style: TextStyle(
                                     fontSize: 16,
+                                    fontWeight: FontWeight.bold,
                                   ),
                                   textAlign: TextAlign.justify,
                                 ),
