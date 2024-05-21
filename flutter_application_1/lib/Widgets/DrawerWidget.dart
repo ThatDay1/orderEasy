@@ -13,21 +13,29 @@ class DrawerWidget extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.red,
               ),
-              accountName: Text(
-                "Programmer",
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+              accountName: Padding(
+                padding:
+                    EdgeInsets.only(top: 16.0), // Adjust the padding as needed
+                child: Text(
+                  "YildizliProgrammer",
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
               accountEmail: Text(
-                "dearprogrammer@etc.com",
+                "dearyildizli@etc.com",
                 style: TextStyle(
                   fontSize: 16,
                 ),
               ),
-              currentAccountPicture: CircleAvatar(
-                backgroundImage: AssetImage("images/avatar.jpg"),
+              currentAccountPicture: Padding(
+                padding:
+                    EdgeInsets.only(bottom: 16.0), // Add padding at the bottom
+                child: CircleAvatar(
+                  backgroundImage: AssetImage("images/avatar.jpg"),
+                ),
               ),
             ),
           ),
