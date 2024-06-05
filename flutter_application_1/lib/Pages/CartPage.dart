@@ -26,7 +26,7 @@ class CartPage extends StatelessWidget {
                       bottom: 10,
                     ),
                     child: Text(
-                      "Order List",
+                      "Sipariş Listesi",
                       style: TextStyle(
                         fontSize: 30,
                         fontWeight: FontWeight.bold,
@@ -34,7 +34,8 @@ class CartPage extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 9),
+                    padding:
+                        const EdgeInsets.symmetric(vertical: 9, horizontal: 25),
                     child: Container(
                       width: 380,
                       height: 100,
@@ -67,14 +68,14 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
                                 Text(
-                                  "Hot Pizza",
+                                  "Sıcak Pizza",
                                   style: TextStyle(
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
                                 Text(
-                                  "Taste Our Hot Pizza",
+                                  "Sıcak pizzamızın tadına bak",
                                   style: TextStyle(
                                     fontSize: 15,
                                   ),
@@ -129,7 +130,8 @@ class CartPage extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 9),
+                    padding:
+                        const EdgeInsets.symmetric(vertical: 9, horizontal: 25),
                     child: Container(
                       width: 380,
                       height: 100,
@@ -162,14 +164,14 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
                                 Text(
-                                  "Cold Drink",
+                                  "Soğuk İçecek",
                                   style: TextStyle(
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
                                 Text(
-                                  "Taste Our Cold Drink",
+                                  "Soğuk içeceğimizin tadına bak",
                                   style: TextStyle(
                                     fontSize: 15,
                                   ),
@@ -252,7 +254,7 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  "Items:",
+                                  "Ürünler:",
                                   style: TextStyle(
                                     fontSize: 20,
                                   ),
@@ -277,7 +279,7 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  "Sub-Total:",
+                                  "Genel Toplam:",
                                   style: TextStyle(
                                     fontSize: 20,
                                   ),
@@ -302,7 +304,7 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  "Delivery Charge:",
+                                  "Teslimat Ücreti:",
                                   style: TextStyle(
                                     fontSize: 20,
                                   ),
@@ -327,7 +329,7 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  "Total:",
+                                  "Toplam:",
                                   style: TextStyle(
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,

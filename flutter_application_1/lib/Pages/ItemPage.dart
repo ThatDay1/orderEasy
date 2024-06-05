@@ -2,6 +2,7 @@ import 'package:clippy_flutter/arc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Widgets/AppBarWidget.dart';
+import 'package:flutter_application_1/Widgets/DrawerWidget.dart';
 import 'package:flutter_application_1/Widgets/ItemBottomNavBar.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
@@ -78,7 +79,7 @@ class ItemPage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             const Text(
-                              "Hot Pizza",
+                              "Sıcak Pizza",
                               style: TextStyle(
                                 fontSize: 28,
                                 fontWeight: FontWeight.bold,
@@ -124,7 +125,7 @@ class ItemPage extends StatelessWidget {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Tase Our Hot Pizza at low price, this is famous pizza and you will love it. İt will cost you at low price, we hope you will enjoy and order many times.",
+                          "Düşük ücretli sıcak pizzalarımızın tadına bakın, bizim en sevilen pizzamızı seveceksiniz. Çok ucuz, umarım çok fazla sipariş edip tadını çıkartırsın.",
                           style: TextStyle(
                             fontSize: 16,
                           ),
@@ -139,7 +140,7 @@ class ItemPage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Delivery Time:",
+                              "Teslimat Zamanı:",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -159,7 +160,7 @@ class ItemPage extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  "30 Minutes",
+                                  "30 dakika",
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
@@ -179,6 +180,7 @@ class ItemPage extends StatelessWidget {
           ],
         ),
       ),
+      drawer: DrawerWidget(),
       bottomNavigationBar: ItemBottomNavBar(),
     );
   }

@@ -15,7 +15,7 @@ class CartBottomNavBar extends StatelessWidget {
             const Row(
               children: [
                 Text(
-                  "Total:",
+                  "Toplam:",
                   style: TextStyle(
                     fontSize: 19,
                     fontWeight: FontWeight.bold,
@@ -51,7 +51,7 @@ class CartBottomNavBar extends StatelessWidget {
                 ),
               ),
               child: const Text(
-                "Order Now",
+                "Şimdi Sipariş Et",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,

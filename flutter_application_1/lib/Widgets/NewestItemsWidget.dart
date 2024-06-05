@@ -57,14 +57,14 @@ class NewestItemsWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           const Text(
-                            "Hot Pizza",
+                            "Sıcak Pizza",
                             style: TextStyle(
                               fontSize: 22,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                           const Text(
-                            "Taste Our Hot Pizza, We Provide Our Great Foods",
+                            "Sıcak Pizza tadına bakın, Güzel lezzetlerimizi sizlere sunuyoruz",
                             style: TextStyle(
                               fontSize: 16,
                             ),
@@ -158,14 +158,14 @@ class NewestItemsWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           const Text(
-                            "Hot Burger",
+                            "Sıcak Hamburger",
                             style: TextStyle(
                               fontSize: 22,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                           const Text(
-                            "Taste Our Hot Burger, We Provide Our Great Foods",
+                            "Sıcak hamburgerlerimiz, Güzel lezzetlerimizi sizlere sunuyoruz",
                             style: TextStyle(
                               fontSize: 16,
                             ),
@@ -266,7 +266,7 @@ class NewestItemsWidget extends StatelessWidget {
                             ),
                           ),
                           const Text(
-                            "Taste Our Cold Drink, We Provide Our Great Foods",
+                            "Soğuk içeceklerimiz, Güzel lezzetlerimizi sizlere sunuyoruz",
                             style: TextStyle(
                               fontSize: 16,
                             ),
@@ -360,14 +360,14 @@ class NewestItemsWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           const Text(
-                            "Chicken Biryani",
+                            "Tavuk Biryani",
                             style: TextStyle(
                               fontSize: 22,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                           const Text(
-                            "Taste Our Chicken Biryani, We Provide Our Great Foods",
+                            "Tavuk biryanimizin tadına bakın, Güzel lezzetlerimizi sizlere sunuyoruz",
                             style: TextStyle(
                               fontSize: 16,
                             ),
@@ -461,14 +461,14 @@ class NewestItemsWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           const Text(
-                            "Chicken Salan",
+                            "Tavuk Salatası",
                             style: TextStyle(
                               fontSize: 22,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                           const Text(
-                            "Taste Our Chicken Salan, We Provide Our Great Foods",
+                            "Tavuk salatamızın tadına bakın, Güzel lezzetlerimizi sizlere sunuyoruz",
                             style: TextStyle(
                               fontSize: 16,
                             ),

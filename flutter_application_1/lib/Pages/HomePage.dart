@@ -51,7 +51,7 @@ class HomePage extends StatelessWidget {
                         ),
                         child: TextFormField(
                           decoration: const InputDecoration(
-                            hintText: "What would you like to have?",
+                            hintText: "Canınız ne çekti?",
                             border: InputBorder.none,
                           ),
                         ),
@@ -72,7 +72,7 @@ class HomePage extends StatelessWidget {
               left: 10,
             ),
             child: Text(
-              "Categories",
+              "Katagorilerimiz",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
@@ -86,7 +86,7 @@ class HomePage extends StatelessWidget {
               left: 10,
             ),
             child: Text(
-              "Popular",
+              "Populerlerimiz",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
@@ -100,7 +100,7 @@ class HomePage extends StatelessWidget {
               left: 10,
             ),
             child: Text(
-              "Newest",
+              "En Yenilerimiz",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20,

@@ -50,7 +50,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Hot Burger",
+                        "Sıcak Burger",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -60,7 +60,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Our Hot Burger",
+                        "Sıcak Burgerlerimiz",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -124,7 +124,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Chicken Salan",
+                        "Tavuk Salata",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -134,7 +134,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Chicken Salan",
+                        "Tavuk Salatalarımız",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -199,7 +199,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Cold Drink",
+                        "Soğuk İçecekler",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -209,7 +209,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Cold Drink",
+                        "Soğuk İçeceklerimiz",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -273,7 +273,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Hot Pizza",
+                        "Sıcak Pizza",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -283,7 +283,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Our Hot Pizza",
+                        "Sıcak Pizzalarımız",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -347,7 +347,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Chicken Biryani",
+                        "Tavuk Biryani",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -357,7 +357,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Chicken Biryani",
+                        "Tavuk Biryanilerimiz",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -436,7 +436,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Our Hot Burger",
+                        "Sıcak Burgerlarımız",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -500,7 +500,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Chicken Salan",
+                        "Tavuk Salata",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -510,7 +510,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Chicken Salan",
+                        "Tavuk Salatalarımız",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -575,7 +575,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Cold Drink",
+                        "Soğuk İçecek",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -585,7 +585,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Cold Drink",
+                        "Soğuk İçeceklarımız",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -649,7 +649,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Hot Pizza",
+                        "Sıcak Pizza",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -659,7 +659,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Our Hot Pizza",
+                        "Sıcak Pizzalarımız",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -723,7 +723,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Chicken Biryani",
+                        "Tavuk Biryani",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -733,7 +733,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Chicken Biryani",
+                        "Tavuk Biryanilerimiz",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -812,7 +812,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Our Hot Burger",
+                        "Sıcak Burgerlerimiz",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -876,7 +876,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Chicken Salan",
+                        "Tavuk Salatası",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -886,7 +886,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Chicken Salan",
+                        "Tavuk Salatalarımız",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -951,7 +951,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Cold Drink",
+                        "Soğuk İçecek",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -961,7 +961,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Cold Drink",
+                        "Soğuk İçeceklerimiz",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -1025,7 +1025,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Hot Pizza",
+                        "Sıcak Pizza",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -1035,7 +1035,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Our Hot Pizza",
+                        "Sıcak Pizzalarımız",
                         style: TextStyle(
                           fontSize: 15,
                         ),
@@ -1099,7 +1099,7 @@ class PopularItemsWidget extends StatelessWidget {
                         ),
                       ),
                       const Text(
-                        "Chicken Biryani",
+                        "Tavuk Biryani",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -1109,7 +1109,7 @@ class PopularItemsWidget extends StatelessWidget {
                         height: 4,
                       ),
                       const Text(
-                        "Taste Chicken Biryani",
+                        "Tavuk Biryanilerimiz",
                         style: TextStyle(
                           fontSize: 15,
                         ),

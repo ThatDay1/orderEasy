@@ -16,7 +16,7 @@ class ItemBottomNavBar extends StatelessWidget {
             const Row(
               children: [
                 Text(
-                  "Total:",
+                  "Toplam:",
                   style: TextStyle(
                     fontSize: 19,
                     fontWeight: FontWeight.bold,
@@ -56,7 +56,7 @@ class ItemBottomNavBar extends StatelessWidget {
                 color: Colors.white,
               ),
               label: const Text(
-                "Add To Cart",
+                "Sepete Ekle",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,

@@ -14,8 +14,7 @@ class DrawerWidget extends StatelessWidget {
                 color: Colors.red,
               ),
               accountName: Padding(
-                padding:
-                    EdgeInsets.only(top: 16.0), // Adjust the padding as needed
+                padding: EdgeInsets.only(top: 16.0),
                 child: Text(
                   "YildizliProgrammer",
                   style: TextStyle(
@@ -31,8 +30,7 @@ class DrawerWidget extends StatelessWidget {
                 ),
               ),
               currentAccountPicture: Padding(
-                padding:
-                    EdgeInsets.only(bottom: 16.0), // Add padding at the bottom
+                padding: EdgeInsets.only(bottom: 16.0),
                 child: CircleAvatar(
                   backgroundImage: AssetImage("images/avatar.jpg"),
                 ),
@@ -45,7 +43,7 @@ class DrawerWidget extends StatelessWidget {
               color: Colors.red,
             ),
             title: Text(
-              "Home",
+              "Anasayfa",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -58,7 +56,7 @@ class DrawerWidget extends StatelessWidget {
               color: Colors.red,
             ),
             title: Text(
-              "My Account",
+              "Benim Hesabım",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -71,7 +69,7 @@ class DrawerWidget extends StatelessWidget {
               color: Colors.red,
             ),
             title: Text(
-              "My Orders",
+              "Siparişlerim",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -84,7 +82,7 @@ class DrawerWidget extends StatelessWidget {
               color: Colors.red,
             ),
             title: Text(
-              "My Wish List",
+              "İstek Listem",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -97,7 +95,7 @@ class DrawerWidget extends StatelessWidget {
               color: Colors.red,
             ),
             title: Text(
-              "Settings",
+              "Ayarlar",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -110,7 +108,7 @@ class DrawerWidget extends StatelessWidget {
               color: Colors.red,
             ),
             title: Text(
-              "Log Out",
+              "Çıkış yap",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
